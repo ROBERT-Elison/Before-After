@@ -1,0 +1,27 @@
+body{
+    background-image: url("https://zupimages.net/up/20/33/divm.jpeg");
+}
+.cadre{
+    border: solid 6px white;
+    border-radius: 50px;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+h1::before {
+    content: "♥";
+    color: rgb(248, 7, 7);
+}
+h1:hover::before{
+    color: blue;
+}
+h1::after{
+    content: "♥";
+    color: rgb(248, 7, 7);
+}
+h1:hover::after{
+    color: blue;
+}
